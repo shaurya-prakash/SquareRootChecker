@@ -14,13 +14,13 @@ public class SquareRootChecker {
 		Scanner scnr = new Scanner(System.in);
       
       System.out.println("Enter an number.");
-      double sqrtInteger = 0.0;
+      double sqrtx2 = 0.0;
       
-      double integer = scnr.nextDouble();    
+      double x2 = scnr.nextDouble();    
       
-      if (integer >= 0) {      
-      sqrtInteger = Math.sqrt(integer);      
-      System.out.println("The square root of " + integer + " is " + sqrtInteger);      
+      if (x2 >= 0) {      
+      sqrtx2 = Math.sqrt(x2);      
+      System.out.println("The square root of " + x2 + " is " + sqrtx2);      
                         }
                         
       else {
